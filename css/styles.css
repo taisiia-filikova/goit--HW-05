@@ -505,8 +505,8 @@ section {
   transition: color 250ms var(--timing-function);
 }
 
-.customers .icon:hover,
-.customers .icon:focus {
+.customers .item:hover .icon,
+.customers .item:focus .icon {
   color: var(--accent-color);
 }
 
